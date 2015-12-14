@@ -1,0 +1,103 @@
+{"levels":[
+
+	{
+        "maxCritters" : 20,
+		"levelText"   : "Hold the left mouse button to abduct dudes.\n\nTransport them to the planet on the right!\n\nThe number in the planet's center is how close\nyou are to the target color.",
+		"planets" :[
+            {
+                "color"   : "0xFF0000FF",
+                "x"       : 130,
+                "y"       : 300,
+                "radius"  : 125
+            },{
+                "color"   : "0xFFFFFFFF",
+                "x"       : 670,
+                "y"       : 300,
+                "radius"  : 125,
+                "target"  : "0xFF0000FF"
+            }
+        ]
+	},
+    {
+        "maxCritters" : 50,
+		"levelText"   : "Turn the central planet pink!",
+		"planets" :[
+            {
+                "color"   : "0xFF0000FF",
+                "x"       : 0,
+                "y"       : 0,
+                "radius"  : 125
+            },
+            {
+                "color"   : "0xFF00FF00",
+                "x"       : 800,
+                "y"       : 0,
+                "radius"  : 125
+            },
+            {
+                "color"   : "0xFFFF0000",
+                "x"       : 0,
+                "y"       : 600,
+                "radius"  : 125
+            },
+            {
+                "color"   : "0xFFFFFF00",
+                "x"       : 800,
+                "y"       : 600,
+                "radius"  : 125
+            },
+            {
+                "color"   : "0xFFFFFFFF",
+                "x"       : 400,
+                "y"       : 300,
+                "radius"  : 250,
+                "target"  : "0xFFFFC0CB"
+            }
+        ]
+	},
+    {
+        "maxCritters" : 20,
+		"levelText"   : "The middle planet is barren!\n\nTurn it purple!\n\nHint: Home planets welcome friends!",
+		"planets" :[
+            {
+                "color"   : "0xFFFF0000",
+                "x"       : 70,
+                "y"       : 70,
+                "radius"  : 125
+            },{
+                "color"   : "0xFF0000FF",
+                "x"       : 70,
+                "y"       : 530,
+                "radius"  : 125
+            },{
+                "color"   : "0xFFFFFFFF",
+                "x"       : 550,
+                "y"       : 300,
+                "radius"  : 250,
+                "barren"  : true,
+                "target"  : "0xFF770077"
+            }
+        ]
+	},
+    {
+        "maxCritters" : 20,
+		"levelText"   : "Turn both planets sea green!",
+		"planets" :[
+            {
+                "color"   : "0xFF00FFFF",
+                "x"       : 130,
+                "y"       : 300,
+                "radius"  : 125,
+                "target"  : "0xFF64EF00"
+            },{
+                "color"   : "0xFFFF000",
+                "x"       : 670,
+                "y"       : 300,
+                "radius"  : 125,
+                "target"  : "0xFF64EF00"
+            }
+        ]
+	}
+	
+    
+]}
